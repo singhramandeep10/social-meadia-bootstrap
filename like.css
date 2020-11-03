@@ -1,0 +1,69 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-color: #fafafa;
+}
+.navbar{
+    background-color: #fff;
+}
+#logo{
+  font-family: cursive,sans-serif;
+  margin-left:250px;
+}
+.fas,.far{
+  color:#000;
+  font-size: 1.5rem;
+  margin-left: 7px;
+}
+.navbar{
+  border-bottom:1px solid #dbdbdb;
+}
+#head{
+  background-color: #fff;
+}
+main{
+    width:960px;
+    margin-top:20px;
+    margin:auto;
+    background-color: #fff;
+}
+table{
+    width:100%;
+}
+table tr{
+    border:1px solid #dbdbdb;
+}
+.ppic{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    margin:10px;
+  }
+.bold{
+    font-weight: bold;
+}
+#liked{
+    height:50px;
+    width:65px;
+}
+.btn{
+    margin:10px 0px 0px 0px;
+}
+
+.loader {
+    width: 5rem;
+    height: 5rem;
+    border: 0.6rem solid #999;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    margin: 0 auto;
+    animation: loader 500ms linear infinite;
+}
+
+
+
+@keyframes loader {
+    to {
+        transform: rotate(360deg);
+    }
+}
